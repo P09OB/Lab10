@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='container'>
+
+        <h2>LAPUS NAPOLEÓN FRANCO</h2>
+
+
+        <h5>Regístre el candidato para la encuesta</h5>
+        <input id="id" placeholder="ID" type="text">
+
+        <input id="name" placeholder="Nombre" type="text">
+
+        <button id="registrar">Registrar</button>
+
+
+        <h5>Vota por el candidato usando su ID</h5>
+
+        <input id="idVoto" placeholder="ID" tyoe="text">
+
+        <button id="voto">Votar</button>
+
+
+
+
+
+    </div>
+
+    <div id='buttonContainer'>
+
+        <button id="candidatos">Ver Candidatos</button>
+        <button id="votaciones">Ver Votaciones</button>
+    </div>
+</body>
+
+
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase.js"></script>
+<script>
+
+    var firebaseConfig = {
+        apiKey: "AIzaSyB9W-FQAbc-wvdWeq1r-13tidWgaiQuZHI",
+        authDomain: "votaciones-bdc33.firebaseapp.com",
+        databaseURL: "https://votaciones-bdc33.firebaseio.com",
+        projectId: "votaciones-bdc33",
+        storageBucket: "votaciones-bdc33.appspot.com",
+        messagingSenderId: "231293520738",
+        appId: "1:231293520738:web:029924d1e187b7e4d27a3b",
+        measurementId: "G-LZW3Y8W39L"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script src="js/index.js"></script>

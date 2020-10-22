@@ -1,0 +1,44 @@
+#container{
+display: flex;
+flex-direction: column;
+width: 40%;
+margin: 0 auto;
+background-color: #fca311;
+padding: 20px;
+
+
+}
+
+h2, h5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#buttonContainer{
+    
+    position: absolute;
+    /*margin: 5px 16px 5px 16px;*/
+    top: 80px;
+    left: 25em;
+    
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    border-radius: 2px;
+    
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    width: 140px;
+    /*margin: 5px 100px 5px 100px;*/
+    background-color: #14213d;
+    color: white;
+    border-radius: 4px;
+}
+
